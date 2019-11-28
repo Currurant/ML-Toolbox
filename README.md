@@ -6,8 +6,8 @@ It is a compact user-friendly machine learning interface for everybody. Common m
 ## Supervise Learning
 
 ### Regression
-- Linear Regression 
-- Generalized Linear Regression: logistic, poisson, negative binomial
+- Linear Regression (including Bayesian)
+- Generalized Linear Regression: logistic, poisson, negative binomial (including Bayesian)
 - ANOVA
 - K-NN
 - Trees: Random Forest, Boosting
