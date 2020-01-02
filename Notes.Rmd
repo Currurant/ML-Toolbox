@@ -1,0 +1,58 @@
+- - - 
+title: "ML Notebook"
+output: html_notebook
+- - - 
+
+## Useful Math
+### RMSE vs. MAE
+
+- RMSE penalizes larger errors more severely than MAE, so it is more suitable when larger errors are particularly undesirable.
+- $RMSE \ge MAE, \text{ equality holds when errors are the same.}$
+- $RMSE \le MAE \sqrt{n} \text{ equality holds when total error only comes from one term.}$
+
+Fact: $\overbrace{\frac{n}{\sum_{i=1}^n x_i}}^\text{Harmonic Mean} \le \overbrace{\sqrt[n]{\prod_{i=1}^n x_i}}^\text{Geometric Mean} \le \overbrace{\frac{\sum_{i=1}^n x_i}{n}}^\text{Arithmetic Mean} \le  \overbrace{\frac{\sum_{i=1}^n x_i^2}{n}}^\text{Quadratic Mean}, \text{ equality holds only when all } x_is \text{ are equal.}$
+
+## ML Details
+### Tree Models
+
+## Bayesian
+### Hierarchical Models
+
+-  Motivation: parameters in a problem can be related to each other, implying a joint probability model could reflect their dependence.
+
+### DLM
+
+- A model is a simplified description of a system that assists calculations and predictions.
+- Model do not represent truth.
+- It is the forecast errors that stimulate learning and a good system will efficiently utilise them in order to improve performance through model enhancement.
+- The way of viewing should not change radically too frequently, otherwise confidence is impaired, communication breaks down, and performance deteriorates.
+- Management by Exception is an important part of Scientific Method: major features remain unchanged, minor modifications are accommodated.
+- Exceptions arise in two main ways: 
+  1. non- routine major change is anticipated, which cannot be reflected by routine learning. 
+  2. model deficiencies are detected and requires expert intervention.
+
+- A good model structure includes: 
+  1. Description: aims at providing meaning and explanation in an acceptable and communicative way.
+      * parsimony: simplicity
+      * perspective: model characteristics
+  2. Control: 
+      * fully control: experiment
+      * partially control: response wisely to the predictions
+  3. Robustness: only change what needs to be changed--extract the maximum from history and retain all relevant information whilst accommodating the new.
+- Modelling consists of three parts:
+  1. define objectives
+  2. select a consistent view of the system
+  3. if appropriate, use mathematical description
+
+- Dynamic models: sequences of sets of models--recognizes uncertainty due to the passage of time.
+
+- Routine learning
+Bayesian methodology offers a comprehensive way of routine learning that does not depend on any particular assumptions:
+Posterior $\propto$ Observed likelihood * Prior
+
+- Model construction
+ Tips:
+  1. clearify goals. If macro and micro decisions are to be made, structure the model hierarchically.
+  2. assess the nature of the process
+  3. Think and do not sacrifice yourself to mathematical magic--all analytic methods should be seen as servants of explanatory thought instead of its usurper.
+  
