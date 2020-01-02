@@ -1,8 +1,0 @@
----
-title: "Analysis Report"
-author: "OptimalAnalysis"
-date: "11/28/2019"
-output: pdf_document
----
-
-

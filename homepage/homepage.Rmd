@@ -1,0 +1,19 @@
+---
+title: "homepage"
+author: "OptimalAnalysis"
+date: "1/1/2020"
+output: html_document
+---
+
+## About Daniel Deng
+
+### Education
+I am currently a Master student majoring in __statistics__ at __Duke University__. Before this, I was an undergraduate at __University of Illinois, Urbana-Champaign__, double majoring in __physics__ and __statistics__. 
+
+### Skills
+As a statistics student, I am familiar with __R__ and __Python__. Common packages used are: 
+  * R: _tidyverse_, _stringr_, _dplyr_
+  * Python: _numpy_, _scipy_, _pandas_
+  
+### Purpose of this webpage
+This shinydashboard is designed to showcase my __skills__ and __projects__ I have been working on. Anyone who is interested should feel free to check my __LinkedIn page__ which is linked via the notification on the __top right__.

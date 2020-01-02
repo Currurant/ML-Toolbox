@@ -40,7 +40,7 @@ body = dashboardBody(
         # home page
         tabItem(
             tabName = "home",
-            includeMarkdown("homepage.Rmd")
+            includeMarkdown("/cloud/project/homepage/homepage.Rmd")
         ),
         
         # project 1: data manipulation
